@@ -1,6 +1,5 @@
 import { useRef, useEffect } from 'react'
 import './index.scss'
-import LogoS from '../../../assets/images/logo-e.png'
 import DrawSVGPlugin from 'gsap-trial/DrawSVGPlugin'
 import gsap from 'gsap-trial'
 
@@ -38,11 +37,6 @@ const Logo = () => {
 
   return (
     <div className='logo-container' ref={bgRef}>
-        <img 
-        ref={solidLogoRef}
-        className='solid-logo' 
-        src={LogoS}
-        alt="E"/>
 
         <svg 
         xmlns="http://www.w3.org/2000/svg" 
@@ -52,13 +46,6 @@ const Logo = () => {
         height="897" 
         preserveAspectRatio="xMidYMid meet" 
         version="1.0">
-            <defs>
-              <clipPath id="id1">
-                  <path 
-                    d="M 0 0.476562 L 418.5 0.476562 L 418.5 672.023438 L 0 672.023438 Z M 0 0.476562 " 
-                    clip-rule="nonzero"/>
-              </clipPath>
-            </defs>
 
             <g 
             className="svg-container"
