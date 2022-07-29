@@ -1,0 +1,22 @@
+.collaps .content {
+    overflow: hidden;
+    transition: height ease 0.5s;
+    top: 0;
+    bottom: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 5px;
+}
+
+.collaps .content-parent {
+    overflow: hidden;
+    transition: height ease .5s;
+    
+
+}
+
+.toggle {
+    position: relative;
+    background: #2e3f42;
+    border: #2e3f42;
+}

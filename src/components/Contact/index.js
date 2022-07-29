@@ -46,7 +46,7 @@ const sendEmail = (e) => {
                 idx={15}/>
             </h1>
             <p>
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+            You can message me and email me. If your message would help me I would love to consider your message and your company. If your message is a opening conversation, you can address me in an informal way.
             </p>
 
             <div className='contact-form'>
@@ -104,9 +104,9 @@ const sendEmail = (e) => {
         </div>
 
         <div className="map-wrap">
-          <MapContainer center={[14.5730988,121.1370356]} zoom={13}>
+          <MapContainer center={[14.5773364,121.1367997]} zoom={13}>
             <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
-            <Marker position={[14.5730988,121.1370356]}>
+            <Marker position={[14.5773364,121.1367997]}>
               <Popup>Edrie Cruz lives here, you may ask for a conversation.</Popup>
             </Marker>
           </MapContainer>

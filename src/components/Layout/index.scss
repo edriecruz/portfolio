@@ -23,7 +23,7 @@
     margin-left: -20px;
 }
 
-.container{
+.container {
     width: 100%;
     will-change: contents;
     height: 90%;
@@ -36,7 +36,7 @@
     transform-style: preserve-3d;
     animation: fadeIn 1s forwards;
     animation-delay: 1s;
-}
+  }
 
 .about-page,
 .contact-page {
@@ -45,27 +45,28 @@
         left: 10%;
         top: 40%;
         transform: translateY(-50%);
-        width: 35%;
+        width: 30%;
         vertical-align: middle;
         display: table-cell;
         max-height: 90%;
 
         h1 {
-            font-size: 60px;
+            font-size: 53px;
             font-family: 'Coolvetica';
             color: #5691a4;
             font-weight: 400;
-            margin-top: 10rem;
+            margin-top: 0;
             position: relative;
             margin-bottom: 40px;
-            left: 10px;
-
-           
+            left: -10px;
         }
 
         p {
             font-size: 13px;
-            color: #fff;
+            color: #2e3f42;
+            background: #e5f2f0;
+            padding: 20px;
+            border-radius: 5px;
             font-family: sans-serif;
             font-weight: 50;
             min-width: fit-content;

@@ -7,7 +7,8 @@ import {
   faLinkedin,
   faGithub,
   faFacebook,
-  faInstagram
+  faInstagram,
+  faCodepen
 } from '@fortawesome/free-brands-svg-icons'
 import { 
   faHome, 
@@ -51,6 +52,15 @@ const Sidebar = () => {
         </nav>
         
         <ul>
+        <li>
+          <a
+            href="https://codepen.io/edriecruz"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <FontAwesomeIcon icon={faCodepen} color="#4d4d4e" />
+          </a>
+        </li>
         <li>
           <a
             href="https://www.linkedin.com/in/edrie-cruz-675208246/"
