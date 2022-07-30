@@ -1,6 +1,5 @@
 import { useEffect, useState } from 'react'
 import {Link} from 'react-router-dom'
-import Logo from './Logo'
 import './index.scss'
 import AnimatedLetters from '../AnimatedLetters'
 import LogoTitle from '../../assets/images/logo-e-2.png'
@@ -54,7 +53,6 @@ useEffect(() => {
             <h2>Frontend Developer / JavaScript Expert / Youtuber</h2>
             <Link to="/contact" className="flat-button">CONTACT ME</Link>
         </div>
-        <Logo />
     </div>
     <img src={Signature} alt='Signature' className='signature'/>
     </>
